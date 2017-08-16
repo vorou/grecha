@@ -1,0 +1,19 @@
+{
+
+  "description": "Grecha is what matters",
+  "manifest_version": 2,
+  "name": "grecha",
+  "version": "1.0",
+  "homepage_url": "http://vorou.com",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://cafe.skbkontur.ru/*"],
+      "js": ["grecha.js"]
+    }
+  ]
+
+}
